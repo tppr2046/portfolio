@@ -11,7 +11,7 @@ export default function Spine() {
   'https://www.youtube.com/embed/INBzHr1HHPM?si=FJdGMwxb01jxEoP4',
   'https://www.youtube.com/embed/wGI0eDmvU9A?si=UZk96GZryrJ9EZYc',
   'https://www.youtube.com/embed/UuSFmhB7TL0?si=aE-TjSH6Cdd-gld1',
-  'https://www.youtube.com/embed/YB2kOJ70YjQ?si=PZ_cYSVxFZanybHS',
+  'https://www.youtube.com/embed/OTuer4XaD2Y?si=fHjWS_7x1q6CfXUW',
   'https://www.youtube.com/embed/dUsFTwnFykY?si=bnnGp5UvPn_FwUzt',
 
 ]
@@ -33,8 +33,19 @@ export default function Spine() {
           </div>
         ))}
       </div>
+
+    <div>
+        <h3>H game女角串接unity操作試做(可拖曳胸部晃動)</h3>
+        <iframe width="560" height="315" src="/spine/index.html" >
+        </iframe>
     </div>
-  )
+  </div>
+
+
+
+
+
+)
  
   
 }

@@ -2,7 +2,8 @@ import './Spine.css'
 
 export default function Live2D() {
   const videos = [
-  'https://www.youtube.com/embed/0EvaoiTIVpQ?si=f5yM3dwwySCH-GRH'
+  'https://www.youtube.com/embed/kFSSSg-yO58?si=Q57zGyGH7wdYjv86',
+  'https://www.youtube.com/embed/nt0vOhdWoJM?si=euN2NSgOCGheD-yn'
   ]
 
 

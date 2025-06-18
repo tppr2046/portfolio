@@ -12,12 +12,13 @@ export default function Spine() {
   'https://www.youtube.com/embed/wGI0eDmvU9A?si=UZk96GZryrJ9EZYc',
   'https://www.youtube.com/embed/UuSFmhB7TL0?si=aE-TjSH6Cdd-gld1',
   'https://www.youtube.com/embed/YB2kOJ70YjQ?si=PZ_cYSVxFZanybHS',
+  'https://www.youtube.com/embed/dUsFTwnFykY?si=bnnGp5UvPn_FwUzt',
 
 ]
   
   return (
     <div className="portfolio-wrapper">
-      <h1>Spine動態作品</h1>
+      <h1>Spine動作設計</h1>
 
       <div className="video-grid">
         {videos.map((url, index) => (

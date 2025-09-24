@@ -1,9 +1,9 @@
-const cacheName = "aaaaa-即通保蝟戰-0.9";
+const cacheName = "aaaaa-吃貨餃餃-0.9";
 const contentToCache = [
-    "Build/public.loader.js",
-    "Build/public.framework.js.unityweb",
-    "Build/public.data.unityweb",
-    "Build/public.wasm.unityweb",
+    "Build/cat_card_portfolio.loader.js",
+    "Build/cat_card_portfolio.framework.js.unityweb",
+    "Build/cat_card_portfolio.data.unityweb",
+    "Build/cat_card_portfolio.wasm.unityweb",
     "TemplateData/style.css"
 
 ];

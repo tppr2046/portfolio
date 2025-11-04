@@ -13,7 +13,7 @@ export default function Spine() {
   'https://www.youtube.com/embed/UuSFmhB7TL0',
   'https://www.youtube.com/embed/OTuer4XaD2Y',
   'https://www.youtube.com/embed/dUsFTwnFykY',
-  'https://www.youtube.com/embed/2fsCpXChH-A',
+  
 
 ]
   

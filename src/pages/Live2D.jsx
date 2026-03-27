@@ -11,19 +11,6 @@ export default function Live2D() {
   return (
         <div className="portfolio-wrapper">
     <h1>Live2D動作設計</h1>
-      <div className="video-grid">
-        {videos.map((url, index) => (
-          <div className="video-container" key={index}>
-            <iframe
-              src={url}
-              title={`影片 ${index + 1}`}
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-        ))}
-      </div>
       <div className="unity-container">
         <iframe
           src="/unity/live2d-demo/index.html"
@@ -34,7 +21,7 @@ export default function Live2D() {
       </div>
 
 
-      
+
     </div>
 
 

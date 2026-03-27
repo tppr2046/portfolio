@@ -59,3 +59,18 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.unity-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.unity-iframe {
+  width: 100%;
+  max-width: 720px;
+  height: 960px;
+  border: none;
+  border-radius: 8px;
+}

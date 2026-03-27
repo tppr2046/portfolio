@@ -24,6 +24,17 @@ export default function Live2D() {
           </div>
         ))}
       </div>
+      <div className="unity-container">
+        <iframe
+          src="/unity/live2d-demo/index.html"
+          title="Live2D Unity Demo"
+          className="unity-iframe"
+          allowFullScreen
+        ></iframe>
+      </div>
+
+
+      
     </div>
 
 

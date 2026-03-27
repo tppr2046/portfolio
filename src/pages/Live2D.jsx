@@ -11,11 +11,10 @@ export default function Live2D() {
   return (
         <div className="portfolio-wrapper">
     <h1>Live2D動作設計</h1>
-      <div className="unity-container">
-        <iframe
-          src="/unity/live2d-demo/index.html"
+      <div >
+        <iframe width="720" height="960"
+          src="/live2d-demo/index.html"
           title="Live2D Unity Demo"
-          className="unity-iframe"
           allowFullScreen
         ></iframe>
       </div>

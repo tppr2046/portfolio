@@ -25,7 +25,7 @@ export default function Live2D() {
       </div>
     <div>
         <h3>Live2D untiy操作</h3>
-        <iframe width="360" height="640" src="/live2d-demo/index.html" >
+        <iframe width="360" height="640" src="/live2d-demo/index.html" scrolling="no" frameborder="0">
         </iframe>
     </div>
 

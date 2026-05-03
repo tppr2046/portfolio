@@ -1,27 +1,148 @@
-.portfolio-wrapper {
-  padding: 1rem;
+.motion-page {
+  padding-top: 1rem;
 }
 
-.video-grid {
+/* Filter chips */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.filter-chip {
+  padding: 0.4rem 0.95rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-elev-1);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-chip:hover {
+  color: var(--text-primary);
+  border-color: var(--border-strong);
+}
+
+.filter-chip.active {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Motion grid */
+.motion-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  justify-content: center;
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
 }
 
-.video-container {
-  max-width: 600px;
-  width: 100%;
-  margin: 0 auto; /* 每個影片區塊居中 */
+.motion-card {
+  background: var(--bg-elev-1);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: transform 0.25s ease, border-color 0.25s ease,
+    box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.motion-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--border-strong);
+  box-shadow: var(--shadow-md);
+}
+
+.video-frame {
   position: relative;
-  padding-top: 56.25%; /* 16:9 比例 */
+  width: 100%;
+  padding-top: 56.25%;
+  background: #000;
 }
 
-.video-container iframe {
+.video-frame iframe {
   position: absolute;
-  top: 0;
-  left: 0;
+  inset: 0;
   width: 100%;
   height: 100%;
-  border: none;
+  border: 0;
+}
+
+.motion-meta {
+  padding: 1rem 1.1rem 1.1rem;
+}
+
+.motion-meta h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+.motion-meta p {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Unity demo */
+.unity-demo {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 1.5rem;
+  align-items: center;
+  background: var(--bg-elev-1);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+}
+
+.unity-demo iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  background: #000;
+}
+
+.unity-desc h3 {
+  margin: 0 0 0.5rem;
+  color: var(--text-primary);
+}
+
+.unity-desc p {
+  margin: 0 0 0.6rem;
+  color: var(--text-secondary);
+}
+
+.unity-desc .hint {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+/* Live2D 直式展示 */
+.unity-demo-vertical {
+  grid-template-columns: 360px 1fr;
+}
+
+.unity-demo-vertical iframe {
+  aspect-ratio: 9 / 16;
+  width: 100%;
+  max-width: 360px;
+  background: #000;
+}
+
+@media (max-width: 820px) {
+  .unity-demo,
+  .unity-demo-vertical {
+    grid-template-columns: 1fr;
+  }
 }

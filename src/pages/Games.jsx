@@ -1,43 +1,96 @@
-import React, { useState } from 'react'
 import './Games.css'
-import { games } from '../data/gamesData'
+import { games, featuredGame, otherClipUrl } from '../data/gamesData'
 import GameCard from '../components/GameCard'
 
 export default function Games() {
-	  const [showGame, setShowGame] = useState(false)
+  return (
+    <main className="page games-page">
+      <header className="page-header">
+        <span className="eyebrow">Game Design</span>
+        <h1>遊戲作品</h1>
+        <p>
+          從上架 Steam 的個人作品，到可在瀏覽器即時試玩的 HTML5 小品。
+          重點呈現遊戲機制、玩法節奏與整合美術／動作的整體完成度。
+        </p>
+      </header>
 
-  const handleClick = () => {
-    setShowGame(true)
-  }
-	return (
-		<div>
- 			<h1>獨立遊戲</h1>
-			<div style={{ marginTop: '1rem', display: 'flex', justifyContent: 'center' }}>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/ak8TXu08SH8?si=oWMo98-fB6oMnlce" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-			</div>
-		<p style={{ textAlign: 'center', marginTop: '1rem' }}>
-        <a
-          href="https://store.steampowered.com/app/2198810/_/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>前往 Steam 商店頁面</h2>
-        </a>
-      </p>
-			<h1>HTML5 遊戲展示</h1>
-    <div className="portfolio-grid">
-      {games.map((game) => (
-        <GameCard
-          key={game.id}
-          title={game.title}
-          thumbnail={game.thumbnail}
-          gameUrl={game.gameUrl}
-        />
-      ))}
-    </div>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Lzzf19crMIE?si=L7cApBJ0dDGPnVzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      {/* Steam 主打作品 */}
+      <section className="section featured-game">
+        <div className="section-title">
+          <h2>Steam 上架作品</h2>
+          <span className="count">個人獨立開發</span>
+        </div>
+        <div className="featured-grid">
+          <div className="featured-video">
+            <iframe
+              src={featuredGame.videoUrl}
+              title="Steam 作品宣傳片"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div className="featured-info">
+            <h3>{featuredGame.title}</h3>
+            <p className="game-role">{featuredGame.role}</p>
+            <p className="featured-desc">{featuredGame.description}</p>
+            <div className="tag-list">
+              {featuredGame.tags.map((t) => (
+                <span key={t} className="tag tag-accent">{t}</span>
+              ))}
+            </div>
+            <a
+              href={featuredGame.storeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary"
+              style={{ marginTop: '1rem' }}
+            >
+              前往 Steam 商店頁面 →
+            </a>
+          </div>
+        </div>
+      </section>
 
-		</div>
-)
+      {/* HTML5 作品 */}
+      <section className="section">
+        <div className="section-title">
+          <h2>HTML5 小品</h2>
+          <span className="count">點擊圖片即可試玩</span>
+        </div>
+        <div className="portfolio-grid">
+          {games.map((game) => (
+            <GameCard
+              key={game.id}
+              title={game.title}
+              thumbnail={game.thumbnail}
+              gameUrl={game.gameUrl}
+              role={game.role}
+              description={game.description}
+              tags={game.tags}
+            />
+          ))}
+        </div>
+      </section>
 
+      {/* 其他開發紀錄 */}
+      <section className="section">
+        <div className="section-title">
+          <h2>開發紀錄</h2>
+          <span className="count">遊戲開發過程影片</span>
+        </div>
+        <div className="featured-video standalone">
+          <iframe
+            src={otherClipUrl}
+            title="開發紀錄影片"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </section>
+    </main>
+  )
 }

@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { useState } from 'react'
+import { useParams, Link } from 'react-router-dom'
 import { visualDesigns, categories } from '../data/visualDesignData'
 import Lightbox from 'yet-another-react-lightbox'
 import 'yet-another-react-lightbox/styles.css'
@@ -15,8 +15,14 @@ export default function VisualCategoryPage() {
   const slides = designs.map((d) => ({ src: d.image, alt: d.title }))
 
   return (
-    <div className="visual-container">
-      <h1>{categoryName}</h1>
+    <main className="visual-container">
+      <header className="page-header">
+        <span className="eyebrow">
+          <Link to="/visual" style={{ color: 'inherit' }}>← 視覺設計</Link>
+        </span>
+        <h1>{categoryName}</h1>
+        <p>共 {designs.length} 件作品 · 點擊圖片可放大檢視</p>
+      </header>
       <div className="design-grid">
         {designs.map((item, index) => (
           <div key={index} className="design-card">
@@ -27,7 +33,7 @@ export default function VisualCategoryPage() {
               onClick={() => setOpenIndex(index)}
             />
             <h3>{item.title}</h3>
-            <p>{item.description}</p>
+            {item.description && <p>{item.description}</p>}
           </div>
         ))}
       </div>
@@ -38,6 +44,6 @@ export default function VisualCategoryPage() {
         index={openIndex}
         slides={slides}
       />
-    </div>
+    </main>
   )
 }

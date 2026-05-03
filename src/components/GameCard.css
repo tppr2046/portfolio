@@ -1,29 +1,103 @@
 .game-card {
-  max-width: 600px;
+  background: var(--bg-elev-1);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--border-strong);
+  box-shadow: var(--shadow-md);
+}
+
+.game-media {
+  position: relative;
   width: 100%;
-  margin: 1rem auto;
-  text-align: center;
+  aspect-ratio: 16 / 9;
+  background: #000;
+}
+
+.game-thumb-btn {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  background: #000;
+  cursor: pointer;
+  position: relative;
+}
+
+.game-thumb-btn:hover {
+  border: 0;
+  color: inherit;
 }
 
 .game-thumbnail {
   width: 100%;
-  max-height: 340px;
+  height: 100%;
   object-fit: cover;
-  cursor: pointer;
-  border: 2px solid #ccc;
-  border-radius: 8px;
-  transition: transform 0.2s ease;
+  display: block;
+  transition: transform 0.3s ease;
 }
 
-.game-thumbnail:hover {
-  transform: scale(1.03);
-  border-color: #999;
+.game-thumb-btn:hover .game-thumbnail {
+  transform: scale(1.04);
+  opacity: 0.85;
+}
+
+.play-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  background: rgba(0, 0, 0, 0.35);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.game-thumb-btn:hover .play-overlay {
+  opacity: 1;
 }
 
 .game-iframe {
+  position: absolute;
+  inset: 0;
   width: 100%;
-  height: 500px;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  border: 0;
+}
+
+.game-info {
+  padding: 1rem 1.1rem 1.2rem;
+}
+
+.game-info h3 {
+  margin: 0 0 0.3rem;
+  font-size: 1.05rem;
+  color: var(--text-primary);
+}
+
+.game-role {
+  margin: 0 0 0.4rem;
+  font-size: 0.78rem;
+  color: var(--accent);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.game-desc {
+  margin: 0 0 0.7rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.55;
 }

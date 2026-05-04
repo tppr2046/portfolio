@@ -2,13 +2,13 @@
 
 export const featuredGame = {
   id: 'steam-main',
-  title: 'Steam 上架作品',
+  title: 'Steam作品',
   videoUrl: 'https://www.youtube.com/embed/ak8TXu08SH8?si=oWMo98-fB6oMnlce',
   storeUrl: 'https://store.steampowered.com/app/2198810/_/',
   role: '個人作品（企劃 / 程式 / 美術 / 動作）',
   description:
     '獨立團隊開發作品。我主要負責遊戲機制設計、介面操作、視覺與動作整合，另有底層機制工程與合作外包繪師一起合作。',
-  tags: ['獨立遊戲', '個人作品', 'Steam'],
+  tags: ['獨立遊戲', 'Steam'],
 }
 
 export const games = [
@@ -17,9 +17,10 @@ export const games = [
     title: '啾命關頭',
     thumbnail: '/games/windowkill/cover.jpg',
     gameUrl: '/games/windowkill/index.html',
+    webUrl: 'https://wk.wuo-wuo.com/',
     role: '遊戲設計 / 美術 / 程式',
-    description: '可在瀏覽器直接遊玩的小品作品，主打瞬間反應與節奏感。',
-    tags: ['HTML5', '街機'],
+    description: '以遊戲的方式讓讀者理解鳥類撞上窗戶的傷害。與動物議題媒體窩窩合作，入圍曾虛白先生新聞獎數位創新類',
+    tags: ['HTML5', '議題'],
   },
   {
     id: 'cat_cards',

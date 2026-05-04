@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className="hero-stats">
           <div className="stat">
-            <div className="stat-num">10+</div>
+            <div className="stat-num">19+</div>
             <div className="stat-label">年遊戲產業資歷</div>
           </div>
           <div className="stat">
@@ -31,8 +31,8 @@ export default function Home() {
             <div className="stat-label">遊戲活動主視覺</div>
           </div>
           <div className="stat">
-            <div className="stat-num">10+</div>
-            <div className="stat-label">Spine 動作角色</div>
+            <div className="stat-num"></div>
+            <div className="stat-label">Spine 角色動作</div>
           </div>
           <div className="stat">
             <div className="stat-num">2</div>
@@ -78,30 +78,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Tools */}
-      <section className="section">
-        <div className="section-title">
-          <h2>使用工具</h2>
-        </div>
-        <div className="tools-grid">
-          <div className="tool-group">
-            <h4>遊戲開發</h4>
-            <p>Unity · C# · Construct · HTML5</p>
-          </div>
-          <div className="tool-group">
-            <h4>動作設計</h4>
-            <p>Spine · Live2D · After Effects</p>
-          </div>
-          <div className="tool-group">
-            <h4>視覺設計</h4>
-            <p>Photoshop · Illustrator · Clip Studio Paint</p>
-          </div>
-          <div className="tool-group">
-            <h4>協作</h4>
-            <p>Git · Trello · Figma</p>
-          </div>
-        </div>
-      </section>
 
       {/* Services / contact */}
       <section className="section contact-section">
@@ -111,10 +87,10 @@ export default function Home() {
         <div className="contact-card">
           <div className="contact-list">
             <span className="tag tag-accent">小遊戲開發</span>
-            <span className="tag tag-accent">Spine 動作設計</span>
-            <span className="tag tag-accent">Live2D 動作設計</span>
+            <span className="tag tag-accent">Spine 動作設計及Unity整合</span>
+            <span className="tag tag-accent">Live2D 動作設計/ Vtuber建模</span>
             <span className="tag tag-accent">活動主視覺</span>
-            <span className="tag tag-accent">角色 / 立繪</span>
+
           </div>
           <p className="contact-text">
             若您對我的作品有興趣，或有合作邀約，歡迎來信討論。

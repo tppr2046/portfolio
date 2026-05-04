@@ -17,8 +17,8 @@ export default function Games() {
       {/* Steam 主打作品 */}
       <section className="section featured-game">
         <div className="section-title">
-          <h2>Steam 上架作品</h2>
-          <span className="count">個人獨立開發</span>
+          <h2>單機遊戲</h2>
+          <span className="count">獨立團隊開發</span>
         </div>
         <div className="featured-grid">
           <div className="featured-video">
@@ -66,6 +66,7 @@ export default function Games() {
               title={game.title}
               thumbnail={game.thumbnail}
               gameUrl={game.gameUrl}
+              webUrl={game.webUrl}
               role={game.role}
               description={game.description}
               tags={game.tags}
@@ -77,13 +78,13 @@ export default function Games() {
       {/* 其他開發紀錄 */}
       <section className="section">
         <div className="section-title">
-          <h2>開發紀錄</h2>
-          <span className="count">遊戲開發過程影片</span>
+          <h2>展場互動小遊戲</h2>
+          <span className="count">資訊月反詐騙宣導小遊戲</span>
         </div>
         <div className="featured-video standalone">
           <iframe
             src={otherClipUrl}
-            title="開發紀錄影片"
+            title="即通保蝟戰"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"

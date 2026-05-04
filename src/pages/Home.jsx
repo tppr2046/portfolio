@@ -270,7 +270,7 @@ export default function Home() {
 
           <p className={`hero-sub${subRevealed ? ' revealed' : ''}`}>
             多年遊戲產業經驗，跨足遊戲企劃、獨立遊戲開發、Spine／Live2D 動作設計與視覺設計。
-            擅長把角色、節奏與互動感，整合到一支可以實際被玩到的作品裡。
+            擅長把角色、節奏與互動感，整合到可以實際被玩到的作品裡。
           </p>
 
           <div className={`hero-actions${actRevealed ? ' revealed' : ''}`}>

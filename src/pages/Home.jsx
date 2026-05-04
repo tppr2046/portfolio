@@ -275,7 +275,7 @@ export default function Home() {
 
           <div className={`hero-actions${actRevealed ? ' revealed' : ''}`}>
             <Link to="/spine" className="btn btn-primary">看 Spine 動作設計</Link>
-            <Link to="/games" className="btn">看遊戲作品</Link>
+            <Link to="/games" className="btn btn-primary">看遊戲作品</Link>
           </div>
         </div>
 

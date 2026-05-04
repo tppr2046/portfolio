@@ -31,12 +31,12 @@ export default function Home() {
             <div className="stat-label">遊戲活動主視覺</div>
           </div>
           <div className="stat">
-            <div className="stat-num"></div>
+            <div className="stat-num">10+</div>
             <div className="stat-label">Spine 角色動作</div>
           </div>
           <div className="stat">
-            <div className="stat-num">2</div>
-            <div className="stat-label">Steam 上架／HTML5 作品</div>
+            <div className="stat-num">單機/HTML5</div>
+            <div className="stat-label">遊戲作品</div>
           </div>
         </div>
       </section>

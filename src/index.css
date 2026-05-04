@@ -11,9 +11,9 @@
   --text-secondary: #a8aebb;
   --text-muted: #6b7280;
 
-  --accent: #f7415c;          /* warm amber, signature accent */
+  --accent: #ff5b74;          /* warm amber, signature accent */
   --accent-soft: #e7082a1a;
-  --accent-hover: #e17081;
+  --accent-hover: #f5788b;
   --accent-2: #08c6e7;        /* cool cyan, secondary accent */
 
   --radius-sm: 6px;

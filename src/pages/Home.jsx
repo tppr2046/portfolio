@@ -258,12 +258,7 @@ export default function Home() {
           <h1 className="hero-title">
             <span className="line-wrap">
               <span className={`line-inner${line0Revealed ? ' revealed' : ''}`}>
-                做<span className="accent">遊戲</span>，也做角色
-              </span>
-            </span>
-            <span className="line-wrap">
-              <span className={`line-inner${line1Revealed ? ' revealed' : ''}`}>
-                <span className="accent">會動</span>的事。
+                做<span className="accent">遊戲</span>，也做角色<span className="accent">會動</span>的事。
               </span>
             </span>
           </h1>

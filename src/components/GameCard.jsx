@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import './GameCard.css'
 
-export default function GameCard({ title, thumbnail, gameUrl, role, description, tags = [] }) {
+export default function GameCard({ title, thumbnail, gameUrl, webUrl, role, description, tags = [] }) {
   const [showGame, setShowGame] = useState(false)
 
   return (
@@ -29,7 +29,12 @@ export default function GameCard({ title, thumbnail, gameUrl, role, description,
       <div className="game-info">
         <h3>{title}</h3>
         {role && <p className="game-role">{role}</p>}
-        {description && <p className="game-desc">{description}</p>}
+        {description && <p className="game-desc" dangerouslySetInnerHTML={{ __html: description }} />}
+        {webUrl && (
+          <a href={webUrl} target="_blank" rel="noopener noreferrer" className="game-web-link">
+            前往完整網站 ↗
+          </a>
+        )}
         {tags.length > 0 && (
           <div className="tag-list">
             {tags.map((t) => (

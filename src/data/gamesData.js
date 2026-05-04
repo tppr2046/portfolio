@@ -19,7 +19,7 @@ export const games = [
     gameUrl: '/games/windowkill/index.html',
     webUrl: 'https://wk.wuo-wuo.com/',
     role: '遊戲設計 / 美術 / 程式',
-    description: '以遊戲的方式讓讀者理解鳥類撞上窗戶的傷害。與動物議題媒體窩窩合作，入圍曾虛白先生新聞獎數位創新類',
+    description: '以遊戲的方式讓讀者理解鳥類撞上窗戶的傷害。與動物議題媒體窩窩合作，<a href="https://www.cna.com.tw/project/thp_award/nomination.html" target="_blank" rel="noopener noreferrer">入圍曾虛白先生新聞獎數位創新類</a>',
     tags: ['HTML5', '議題'],
   },
   {

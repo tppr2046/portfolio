@@ -18,7 +18,7 @@ useEffect(() => {
     const ctx = canvas.getContext('2d')
     let W, H, pts = [], raf
 
-    const PALETTE = ['#ffb547', '#5ac8fa', '#ffc870', '#a8aebb']
+    const PALETTE = ['#dd2020', '#ffffff', '#df3232', '#a8aebb']
 
     function resize() {
       W = canvas.width  = window.innerWidth

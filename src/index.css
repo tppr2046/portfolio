@@ -1,19 +1,19 @@
 :root {
   /* Color tokens — dark portfolio palette */
-  --bg-base: #c31919;;
-  --bg-elev-1: #dd3b3b;
-  --bg-elev-2: #de5166;
-  --bg-elev-3: #df6565;
-  --border-subtle: #d87070;
-  --border-strong: #dc8585;
+  --bg-base: #ede6e4;;
+  --bg-elev-1: #eed3cc;
+  --bg-elev-2: #e9baae;
+  --bg-elev-3: #edaa99;
+  --border-subtle: #ec9984;
+  --border-strong: #ec876e;
 
-  --text-primary: #e8eaef;
-  --text-secondary: #d4dbeb;
-  --text-muted: #aeb8cd;
+  --text-primary: #19191a;
+  --text-secondary: #28292a;
+  --text-muted: #3d3e3e;
 
-  --accent: #e8eaef;          
+  --accent: #d83232;          
   --accent-soft: #6b72801a;
-  --accent-hover: #a8aebb;
+  --accent-hover: #e95555;
   --accent-2: #08c6e7;        /* cool cyan, secondary accent */
 
   --radius-sm: 6px;

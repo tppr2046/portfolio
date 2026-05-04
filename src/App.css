@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0.85rem 2rem;
-  background: rgba(125, 24, 39, 0.85);
+  background: rgba(135, 9, 28, 0.85);
   backdrop-filter: saturate(140%) blur(10px);
   -webkit-backdrop-filter: saturate(140%) blur(10px);
   border-bottom: 1px solid var(--border-subtle);

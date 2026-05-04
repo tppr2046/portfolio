@@ -295,3 +295,29 @@
     font-size: 1.7rem;
   }
 }
+/* 環境光暈 */
+.orb {
+  position: fixed;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: 0;
+}
+.orb-amber {
+  width: 500px; height: 500px;
+  background: radial-gradient(circle, rgba(255,181,71,.13) 0%, transparent 70%);
+  top: -100px; right: -100px;
+  animation: orbDrift 20s ease-in-out infinite;
+}
+.orb-cyan {
+  width: 400px; height: 400px;
+  background: radial-gradient(circle, rgba(90,200,250,.10) 0%, transparent 70%);
+  bottom: 20%; left: -80px;
+  animation: orbDrift 25s ease-in-out infinite;
+  animation-delay: -8s;
+}
+@keyframes orbDrift {
+  0%,100% { transform: translate(0,0) scale(1); }
+  33%     { transform: translate(30px,-40px) scale(1.08); }
+  66%     { transform: translate(-20px,30px) scale(.95); }
+}

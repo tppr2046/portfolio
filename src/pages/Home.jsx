@@ -313,20 +313,32 @@ export default function Home() {
         </div>
         <div className="specialty-grid">
           <Link to="/games" className="specialty-card">
-            <div className="card-icon">🎮</div>
-            <h3>遊戲設計</h3>
+            <div className="specialty-card-header">
+              <div className="card-icon card-icon--gif">
+                <img src="/controller_nes.gif" alt="" />
+              </div>
+              <h3><img src="/gamedesign_title.png" alt="遊戲設計" className="specialty-title-img" /></h3>
+            </div>
             <p>從企劃文件、機制原型、關卡設計、到實機開發。個人作品已上架 Steam，亦製作多款 HTML5 小遊戲。</p>
             <span className="card-link">查看作品 →</span>
           </Link>
           <Link to="/spine" className="specialty-card">
-            <div className="card-icon">🎬</div>
-            <h3>動作設計</h3>
+            <div className="specialty-card-header">
+              <div className="card-icon card-icon--gif">
+                <img src="/clapperboard.gif" alt="" />
+              </div>
+              <h3><img src="/animation_title.png" alt="動作設計" className="specialty-title-img" /></h3>
+            </div>
             <p>Spine 與 Live2D 角色動畫製作，包含待機、攻擊、互動、表情等遊戲常用動作循環，亦提供 Unity 串接協助。</p>
             <span className="card-link">查看作品 →</span>
           </Link>
           <Link to="/visual" className="specialty-card">
-            <div className="card-icon">🎨</div>
-            <h3>視覺設計</h3>
+            <div className="specialty-card-header">
+              <div className="card-icon card-icon--gif">
+                <img src="/photoshop.gif" alt="" />
+              </div>
+              <h3><img src="/visual_title.png" alt="視覺設計" className="specialty-title-img" /></h3>
+            </div>
             <p>長期參與 TGDF、GGJ、KGJ、FGJ 等遊戲社群活動的主視覺製作，累積跨年度的活動視覺語彙。</p>
             <span className="card-link">查看作品 →</span>
           </Link>

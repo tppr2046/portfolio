@@ -1,0 +1,15 @@
+controller_nes.png
+size:114,106
+filter:MipMap,MipMap
+pma:true
+button_down
+bounds:2,80,24,26
+rotate:90
+button_up
+bounds:30,80,24,28
+rotate:90
+cross
+bounds:60,76,28,32
+rotate:90
+panel
+bounds:2,2,110,72

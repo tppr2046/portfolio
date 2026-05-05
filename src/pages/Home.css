@@ -226,9 +226,42 @@
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
 }
+.card-icon--spine {
+  font-size: 0;
+  width: 90px;
+  height: 60px;
+}
+.card-icon--gif {
+  font-size: 0;
+  height: 64px;
+}
+.card-icon--gif img {
+  height: 100%;
+  width: auto;
+  display: block;
+}
+.card-icon--spine spine-skeleton {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 .specialty-card h3 {
   margin: 0 0 0.5rem;
   font-size: 1.2rem;
+}
+.specialty-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+.specialty-card-header h3 {
+  margin: 0;
+}
+.specialty-title-img {
+  display: block;
+  width: auto;
+  height: auto;
 }
 .specialty-card p {
   margin: 0 0 1rem;

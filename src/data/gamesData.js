@@ -3,7 +3,7 @@
 export const featuredGame = {
   id: 'steam-main',
   title: 'Steam作品',
-  videoUrl: 'https://www.youtube.com/embed/ak8TXu08SH8?si=oWMo98-fB6oMnlce',
+  videoUrl: 'https://www.youtube.com/embed/ak8TXu08SH8',
   storeUrl: 'https://store.steampowered.com/app/2198810/_/',
   role: '個人作品（企劃 / 程式 / 美術 / 動作）',
   description:
@@ -33,4 +33,5 @@ export const games = [
   },
 ]
 
-export const otherClipUrl = 'https://www.youtube.com/embed/Lzzf19crMIE?si=L7cApBJ0dDGPnVzU'
+export const otherClipUrl = 'https://www.youtube.com/embed/Lzzf19crMIE'
+

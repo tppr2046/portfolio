@@ -7,6 +7,7 @@ import Spine from './pages/Spine'
 import Live2D from './pages/Live2D'
 import VisualCategoryList from './pages/VisualCategoryList'
 import VisualCategoryPage from './pages/VisualCategoryPage'
+import VisualEffects from './pages/VisualEffects'
 import { useEffect, useRef } from 'react'
 
 
@@ -137,6 +138,7 @@ useEffect(() => {
         <Route path="/spine" element={<Spine />} />
         <Route path="/live2d" element={<Live2D />} />
         <Route path="/visual" element={<VisualCategoryList />} />
+        <Route path="/visual/effects" element={<VisualEffects />} />
         <Route path="/visual/:categoryId" element={<VisualCategoryPage />} />
       </Routes>
       <footer className="site-footer">

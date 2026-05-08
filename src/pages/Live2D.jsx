@@ -81,25 +81,27 @@ export default function Live2D() {
         </div>
       </section>
 
-      {/* Unity 整合 */}
+      {/* Live2D Web 展示 */}
       <section className="section">
         <div className="section-title">
-          <h2>Unity 整合展示</h2>
-          <span className="count">Live2D + Unity 互動範例</span>
+          <h2>互動展示</h2>
+          <span className="count">Live2D Web 嵌入範例</span>
         </div>
         <div className="unity-demo unity-demo-vertical">
           <iframe
-            src="/live2d-demo/index.html"
-            title="Live2D Unity 整合展示"
+            src="/dist/index.html"
+            title="Live2D 互動展示"
             scrolling="no"
           ></iframe>
           <div className="unity-desc">
-            <h3>Live2D 串接 Unity</h3>
+            <h3>Live2D Web 展示</h3>
             <p>
-              將 Live2D 動作導入 Unity，並加入互動回饋；
-              示範如何在實機中即時控制角色表情與動作參數。
+              以 Live2D Cubism 製作角色動作，直接透過 Web 技術嵌入展示；
+              包含待機動作、表情與物理模擬。
             </p>
-            <p className="hint">※ 範例為動作技術測試，僅供作品展示。</p>
+            <p className="hint">Vtuber建模班習作</p>
+            <p className="hint">繪圖：天之火</p>
+            <p className="hint">課程指導：SODAARTS</p>
           </div>
         </div>
       </section>

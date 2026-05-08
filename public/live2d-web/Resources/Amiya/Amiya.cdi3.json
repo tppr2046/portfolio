@@ -1,0 +1,2012 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamQVer",
+			"GroupId": "ParamGroup14",
+			"Name": "Q版變身"
+		},
+		{
+			"Id": "ParamAngleXTrue",
+			"GroupId": "ParamGroup14",
+			"Name": "Angle X True"
+		},
+		{
+			"Id": "ParamAngleYTrue",
+			"GroupId": "ParamGroup14",
+			"Name": "Angle Y True"
+		},
+		{
+			"Id": "ParamAngleZTrue",
+			"GroupId": "ParamGroup14",
+			"Name": "Angle Z True"
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "ParamGroup14",
+			"Name": "Angle X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "ParamGroup14",
+			"Name": "Angle Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "ParamGroup14",
+			"Name": "Angle Z"
+		},
+		{
+			"Id": "ParamAngleXBlend",
+			"GroupId": "ParamGroup14",
+			"Name": "Angle X 融合"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "ParamGroup14",
+			"Name": "Cheek"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "ParamGroup14",
+			"Name": "Breath"
+		},
+		{
+			"Id": "ParamBodyRotationX",
+			"GroupId": "ParamGroup14",
+			"Name": "身體轉X"
+		},
+		{
+			"Id": "ParamBodyRotationY",
+			"GroupId": "ParamGroup14",
+			"Name": "身體轉Y"
+		},
+		{
+			"Id": "ParamBodyRotationZ",
+			"GroupId": "ParamGroup14",
+			"Name": "身體轉Z"
+		},
+		{
+			"Id": "ParamHip",
+			"GroupId": "ParamGroup14",
+			"Name": "屁股搖"
+		},
+		{
+			"Id": "ParamHipwalk",
+			"GroupId": "ParamGroup14",
+			"Name": "屁股搖走路"
+		},
+		{
+			"Id": "ParamHip2",
+			"GroupId": "ParamGroup14",
+			"Name": "屁股搖2"
+		},
+		{
+			"Id": "ParamHip2walk",
+			"GroupId": "ParamGroup14",
+			"Name": "屁股搖2走路"
+		},
+		{
+			"Id": "ParamPositionZ",
+			"GroupId": "ParamGroup14",
+			"Name": "PositionZ"
+		},
+		{
+			"Id": "ParamPositionZ2",
+			"GroupId": "ParamGroup14",
+			"Name": "PositionZ融合"
+		},
+		{
+			"Id": "question1111",
+			"GroupId": "ParamGroup24",
+			"Name": "問號"
+		},
+		{
+			"Id": "Param147",
+			"GroupId": "ParamGroup24",
+			"Name": "問號開關"
+		},
+		{
+			"Id": "Param146",
+			"GroupId": "ParamGroup24",
+			"Name": "愛心眼睛動畫"
+		},
+		{
+			"Id": "ParamHeartUp",
+			"GroupId": "ParamGroup24",
+			"Name": "愛心眼開關"
+		},
+		{
+			"Id": "heartup_Param88",
+			"GroupId": "ParamGroup24",
+			"Name": "愛心飄1"
+		},
+		{
+			"Id": "heartup_Param89",
+			"GroupId": "ParamGroup24",
+			"Name": "愛心飄2"
+		},
+		{
+			"Id": "heartup_Param90",
+			"GroupId": "ParamGroup24",
+			"Name": "愛心飄3"
+		},
+		{
+			"Id": "heartup_Param91",
+			"GroupId": "ParamGroup24",
+			"Name": "愛心飄4"
+		},
+		{
+			"Id": "heartup_Param92",
+			"GroupId": "ParamGroup24",
+			"Name": "愛心飄5"
+		},
+		{
+			"Id": "heartup_Param93",
+			"GroupId": "ParamGroup24",
+			"Name": "愛心飄6"
+		},
+		{
+			"Id": "heartup_Param94",
+			"GroupId": "ParamGroup24",
+			"Name": "愛心飄7"
+		},
+		{
+			"Id": "heartup_Param95",
+			"GroupId": "ParamGroup24",
+			"Name": "愛心飄8"
+		},
+		{
+			"Id": "ParamTearWave",
+			"GroupId": "ParamGroup24",
+			"Name": "眼淚晃"
+		},
+		{
+			"Id": "ParamTearDrop",
+			"GroupId": "ParamGroup24",
+			"Name": "流眼淚"
+		},
+		{
+			"Id": "ParamTearSwitch",
+			"GroupId": "ParamGroup24",
+			"Name": "眼淚開關"
+		},
+		{
+			"Id": "ParamAngrySign",
+			"GroupId": "ParamGroup24",
+			"Name": "生氣符號"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "ParamGroup24",
+			"Name": "驚嘆問號"
+		},
+		{
+			"Id": "ParamRightStep",
+			"GroupId": "ParamGroup13",
+			"Name": "右跨步"
+		},
+		{
+			"Id": "ParamLeftStep",
+			"GroupId": "ParamGroup13",
+			"Name": "左跨步"
+		},
+		{
+			"Id": "ParamFootUpR",
+			"GroupId": "ParamGroup13",
+			"Name": "右腳抬腳"
+		},
+		{
+			"Id": "ParamFootUpL",
+			"GroupId": "ParamGroup13",
+			"Name": "左腳抬腳"
+		},
+		{
+			"Id": "ParamSkirtX",
+			"GroupId": "ParamGroup9",
+			"Name": "長裙前1物理X-空"
+		},
+		{
+			"Id": "ParamSkirtX2",
+			"GroupId": "ParamGroup9",
+			"Name": "長裙前1物理X2"
+		},
+		{
+			"Id": "ParamSkirtX3",
+			"GroupId": "ParamGroup9",
+			"Name": "長裙前1物理X3"
+		},
+		{
+			"Id": "ParamSkirt2X",
+			"GroupId": "ParamGroup9",
+			"Name": "長裙前2物理X"
+		},
+		{
+			"Id": "ParamSkirt2XTOP",
+			"GroupId": "ParamGroup9",
+			"Name": "長裙前2物理X空"
+		},
+		{
+			"Id": "ParamSkirt2X2",
+			"GroupId": "ParamGroup9",
+			"Name": "長裙前2物理X2"
+		},
+		{
+			"Id": "ParamSkirt2X3",
+			"GroupId": "ParamGroup9",
+			"Name": "長裙前2物理X3"
+		},
+		{
+			"Id": "ParamSkirtLX",
+			"GroupId": "ParamGroup9",
+			"Name": "長裙左側物理X-空"
+		},
+		{
+			"Id": "ParamSkirtLEmptyX2",
+			"GroupId": "ParamGroup9",
+			"Name": "長裙左側物理X-空2"
+		},
+		{
+			"Id": "ParamSkirtLX2",
+			"GroupId": "ParamGroup9",
+			"Name": "長裙左側物理X2"
+		},
+		{
+			"Id": "ParamSkirtLX3",
+			"GroupId": "ParamGroup9",
+			"Name": "長裙左側物理X3"
+		},
+		{
+			"Id": "ParamSkirtRX",
+			"GroupId": "ParamGroup9",
+			"Name": "長裙右側物理X-空"
+		},
+		{
+			"Id": "ParamSkirtRX2",
+			"GroupId": "ParamGroup9",
+			"Name": "長裙右側物理X2"
+		},
+		{
+			"Id": "ParamSkirtRX3",
+			"GroupId": "ParamGroup9",
+			"Name": "長裙右側物理X3"
+		},
+		{
+			"Id": "ParamSkirtFrontY",
+			"GroupId": "ParamGroup9",
+			"Name": "裙子物理前Y"
+		},
+		{
+			"Id": "ParamSkirtFrontY2",
+			"GroupId": "ParamGroup9",
+			"Name": "裙子物理前Y2"
+		},
+		{
+			"Id": "ParamSkirtXwalk",
+			"GroupId": "ParamGroup16",
+			"Name": "長裙前1物理X-空 走路"
+		},
+		{
+			"Id": "ParamSkirtX2walk",
+			"GroupId": "ParamGroup16",
+			"Name": "長裙前1物理X2走路"
+		},
+		{
+			"Id": "ParamSkirtX3walk",
+			"GroupId": "ParamGroup16",
+			"Name": "長裙前1物理X3走路"
+		},
+		{
+			"Id": "ParamSkirt2Xwalk",
+			"GroupId": "ParamGroup16",
+			"Name": "長裙前2物理X走路"
+		},
+		{
+			"Id": "ParamSkirt2XTOPwalk",
+			"GroupId": "ParamGroup16",
+			"Name": "長裙前2物理X空走路"
+		},
+		{
+			"Id": "ParamSkirt2X2walk",
+			"GroupId": "ParamGroup16",
+			"Name": "長裙前2物理X2走路"
+		},
+		{
+			"Id": "ParamSkirt2X3walk",
+			"GroupId": "ParamGroup16",
+			"Name": "長裙前2物理X3走路"
+		},
+		{
+			"Id": "ParamSkirtLXwalk",
+			"GroupId": "ParamGroup16",
+			"Name": "長裙左側物理X-空走路"
+		},
+		{
+			"Id": "ParamSkirtLEmptyX2walk",
+			"GroupId": "ParamGroup16",
+			"Name": "長裙左側物理X-空2走路"
+		},
+		{
+			"Id": "ParamSkirtLX2walk",
+			"GroupId": "ParamGroup16",
+			"Name": "長裙左側物理X2走路"
+		},
+		{
+			"Id": "ParamSkirtLX3walk",
+			"GroupId": "ParamGroup16",
+			"Name": "長裙左側物理X3走路"
+		},
+		{
+			"Id": "ParamSkirtRXwalk",
+			"GroupId": "ParamGroup16",
+			"Name": "長裙右側物理X-空走路"
+		},
+		{
+			"Id": "ParamSkirtRX2walk",
+			"GroupId": "ParamGroup16",
+			"Name": "長裙右側物理X2走路"
+		},
+		{
+			"Id": "ParamSkirtRX3walk",
+			"GroupId": "ParamGroup16",
+			"Name": "長裙右側物理X3走路"
+		},
+		{
+			"Id": "ParamSkirtFrontYwalk",
+			"GroupId": "ParamGroup16",
+			"Name": "裙子物理前Y走路"
+		},
+		{
+			"Id": "ParamSkirtFrontY2walk",
+			"GroupId": "ParamGroup16",
+			"Name": "裙子物理前Y2走路"
+		},
+		{
+			"Id": "ParamArmsPhysicsSwitch",
+			"GroupId": "ParamGroup8",
+			"Name": "手部物理開關"
+		},
+		{
+			"Id": "ParamShoulderLX",
+			"GroupId": "ParamGroup8",
+			"Name": "左肩膀X"
+		},
+		{
+			"Id": "ParamSoulderLY",
+			"GroupId": "ParamGroup8",
+			"Name": "左肩膀Y"
+		},
+		{
+			"Id": "ParamElbowL",
+			"GroupId": "ParamGroup8",
+			"Name": "左手肘"
+		},
+		{
+			"Id": "ParamWristL",
+			"GroupId": "ParamGroup8",
+			"Name": "左手腕"
+		},
+		{
+			"Id": "ParamPalmLX",
+			"GroupId": "ParamGroup8",
+			"Name": "左手掌X"
+		},
+		{
+			"Id": "ParamPalmLY",
+			"GroupId": "ParamGroup8",
+			"Name": "左手掌Y"
+		},
+		{
+			"Id": "ParamShoulderRX",
+			"GroupId": "ParamGroup8",
+			"Name": "右肩膀X"
+		},
+		{
+			"Id": "ParamSoulderRY",
+			"GroupId": "ParamGroup8",
+			"Name": "右肩膀Y"
+		},
+		{
+			"Id": "ParamElbowR",
+			"GroupId": "ParamGroup8",
+			"Name": "右手肘"
+		},
+		{
+			"Id": "ParamWristR",
+			"GroupId": "ParamGroup8",
+			"Name": "右手腕"
+		},
+		{
+			"Id": "ParamPalmRX",
+			"GroupId": "ParamGroup8",
+			"Name": "右手掌X"
+		},
+		{
+			"Id": "ParamPalmRY",
+			"GroupId": "ParamGroup8",
+			"Name": "右手掌Y"
+		},
+		{
+			"Id": "ParamShoulderLXwalk",
+			"GroupId": "ParamGroup17",
+			"Name": "左肩膀X走路"
+		},
+		{
+			"Id": "ParamSoulderLYwalk",
+			"GroupId": "ParamGroup17",
+			"Name": "左肩膀Y走路"
+		},
+		{
+			"Id": "ParamElbowLwalk",
+			"GroupId": "ParamGroup17",
+			"Name": "左手肘走路"
+		},
+		{
+			"Id": "ParamWristLwalk",
+			"GroupId": "ParamGroup17",
+			"Name": "左手腕走路"
+		},
+		{
+			"Id": "ParamPalmLXwalk",
+			"GroupId": "ParamGroup17",
+			"Name": "左手掌X走路"
+		},
+		{
+			"Id": "ParamPalmLYwalk",
+			"GroupId": "ParamGroup17",
+			"Name": "左手掌Y走路"
+		},
+		{
+			"Id": "ParamShoulderRXwalk",
+			"GroupId": "ParamGroup17",
+			"Name": "右肩膀X走路"
+		},
+		{
+			"Id": "ParamSoulderRYwalk",
+			"GroupId": "ParamGroup17",
+			"Name": "右肩膀Y走路"
+		},
+		{
+			"Id": "ParamElbowRwalk",
+			"GroupId": "ParamGroup17",
+			"Name": "右手肘走路"
+		},
+		{
+			"Id": "ParamWristRwalk",
+			"GroupId": "ParamGroup17",
+			"Name": "右手腕走路"
+		},
+		{
+			"Id": "ParamPalmRXwalk",
+			"GroupId": "ParamGroup17",
+			"Name": "右手掌X走路"
+		},
+		{
+			"Id": "ParamPalmRYwalk",
+			"GroupId": "ParamGroup17",
+			"Name": "右手掌Y走路"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroup",
+			"Name": "EyeL Open"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "ParamGroup",
+			"Name": "EyeL Smile"
+		},
+		{
+			"Id": "ParamEyeLExpress",
+			"GroupId": "ParamGroup",
+			"Name": "EyeL Express"
+		},
+		{
+			"Id": "ParamEyeRExpress",
+			"GroupId": "ParamGroup",
+			"Name": "EyeR Express"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroup",
+			"Name": "EyeR Open"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "ParamGroup",
+			"Name": "EyeR Smile"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamGroup",
+			"Name": "Eyeball X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroup",
+			"Name": "Eyeball Y"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "ParamGroup",
+			"Name": "BrowL Y"
+		},
+		{
+			"Id": "ParamAngryEyebrowL",
+			"GroupId": "ParamGroup",
+			"Name": "左眉 生氣"
+		},
+		{
+			"Id": "ParamAngryEyebrowR",
+			"GroupId": "ParamGroup",
+			"Name": "右眉 生氣"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "ParamGroup",
+			"Name": "BrowR Y"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "ParamGroup",
+			"Name": "BrowL X"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "ParamGroup",
+			"Name": "BrowR X"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "ParamGroup",
+			"Name": "BrowL Angle"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "ParamGroup",
+			"Name": "BrowR Angle"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "ParamGroup",
+			"Name": "BrowL Form"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "ParamGroup",
+			"Name": "BrowR Form"
+		},
+		{
+			"Id": "ParamEyeball1L",
+			"GroupId": "ParamGroup2",
+			"Name": "眼睛內容物理1L"
+		},
+		{
+			"Id": "ParamEyeball1R",
+			"GroupId": "ParamGroup2",
+			"Name": "眼睛內容物理1R"
+		},
+		{
+			"Id": "ParamEyeballJumpXL",
+			"GroupId": "ParamGroup2",
+			"Name": "眼睛彈跳物理X L"
+		},
+		{
+			"Id": "ParamEyeballJumpXR",
+			"GroupId": "ParamGroup2",
+			"Name": "眼睛彈跳物理X R"
+		},
+		{
+			"Id": "ParamEyeballJumpYL",
+			"GroupId": "ParamGroup2",
+			"Name": "眼睛彈跳物理Y L"
+		},
+		{
+			"Id": "ParamEyeballJumpYR",
+			"GroupId": "ParamGroup2",
+			"Name": "眼睛彈跳物理Y R"
+		},
+		{
+			"Id": "ParamEyeball2L",
+			"GroupId": "ParamGroup2",
+			"Name": "眼睛內容物理2 L"
+		},
+		{
+			"Id": "ParamEyeball2R",
+			"GroupId": "ParamGroup2",
+			"Name": "眼睛內容物理2 R"
+		},
+		{
+			"Id": "ParameEyeballHigh1L",
+			"GroupId": "ParamGroup2",
+			"Name": "眼睛高光物理1 L"
+		},
+		{
+			"Id": "ParameEyeballHigh1R",
+			"GroupId": "ParamGroup2",
+			"Name": "眼睛高光物理1 R"
+		},
+		{
+			"Id": "ParamEyelashL",
+			"GroupId": "ParamGroup2",
+			"Name": "睫毛彈跳L"
+		},
+		{
+			"Id": "ParamEyelashR",
+			"GroupId": "ParamGroup2",
+			"Name": "睫毛彈跳R"
+		},
+		{
+			"Id": "ParamEyelash2L",
+			"GroupId": "ParamGroup2",
+			"Name": "睫毛彈跳2L"
+		},
+		{
+			"Id": "ParamEyelash2R",
+			"GroupId": "ParamGroup2",
+			"Name": "睫毛彈跳2R"
+		},
+		{
+			"Id": "ParamEyeOutXL",
+			"GroupId": "ParamGroup2",
+			"Name": "眼框彈跳XL"
+		},
+		{
+			"Id": "ParamEyeOutXR",
+			"GroupId": "ParamGroup2",
+			"Name": "眼框彈跳XR"
+		},
+		{
+			"Id": "ParamEeyOutYL",
+			"GroupId": "ParamGroup2",
+			"Name": "眼框彈跳YL"
+		},
+		{
+			"Id": "ParamEeyOutYR",
+			"GroupId": "ParamGroup2",
+			"Name": "眼框彈跳YR"
+		},
+		{
+			"Id": "ParamEarringL",
+			"GroupId": "ParamGroup5",
+			"Name": "耳飾搖晃"
+		},
+		{
+			"Id": "ParamEarringL2",
+			"GroupId": "ParamGroup5",
+			"Name": "耳飾球搖晃"
+		},
+		{
+			"Id": "ParamEarringL1walk",
+			"GroupId": "ParamGroup5",
+			"Name": "耳飾搖晃走路"
+		},
+		{
+			"Id": "ParamEarringL2walk",
+			"GroupId": "ParamGroup5",
+			"Name": "耳飾球搖晃走路"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "ParamGroup3",
+			"Name": "Mouth Form"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "ParamGroup3",
+			"Name": "Mouth Open"
+		},
+		{
+			"Id": "ParamMouthForm2",
+			"GroupId": "ParamGroup3",
+			"Name": "歪嘴"
+		},
+		{
+			"Id": "ParamMouthForm4",
+			"GroupId": "ParamGroup3",
+			"Name": "嘟嘴"
+		},
+		{
+			"Id": "ParamMouthForm3",
+			"GroupId": "ParamGroup3",
+			"Name": "生氣"
+		},
+		{
+			"Id": "ParamFrontMiddleHariX1",
+			"GroupId": "ParamGroup4",
+			"Name": "前中瀏海X1"
+		},
+		{
+			"Id": "ParamFrontMiddleHariX2",
+			"GroupId": "ParamGroup4",
+			"Name": "前中瀏海X2"
+		},
+		{
+			"Id": "ParamFrontMiddleHariX3",
+			"GroupId": "ParamGroup4",
+			"Name": "前中瀏海X3"
+		},
+		{
+			"Id": "ParamFrontMiddleHariY1",
+			"GroupId": "ParamGroup4",
+			"Name": "前中瀏海Y1"
+		},
+		{
+			"Id": "ParamFrontMiddleHariY2",
+			"GroupId": "ParamGroup4",
+			"Name": "前中瀏海Y2"
+		},
+		{
+			"Id": "ParamLeftHairX1",
+			"GroupId": "ParamGroup4",
+			"Name": "左瀏海X1"
+		},
+		{
+			"Id": "ParamLeftHairX2",
+			"GroupId": "ParamGroup4",
+			"Name": "左瀏海X2"
+		},
+		{
+			"Id": "ParamLeftHairX3",
+			"GroupId": "ParamGroup4",
+			"Name": "左瀏海X3"
+		},
+		{
+			"Id": "ParamLeftHairY1",
+			"GroupId": "ParamGroup4",
+			"Name": "左瀏海Y1"
+		},
+		{
+			"Id": "ParamLeftHairY2",
+			"GroupId": "ParamGroup4",
+			"Name": "左瀏海Y2"
+		},
+		{
+			"Id": "ParamFrontLeftHairX1",
+			"GroupId": "ParamGroup4",
+			"Name": "前左瀏海X1"
+		},
+		{
+			"Id": "ParamFrontLeftHairX2",
+			"GroupId": "ParamGroup4",
+			"Name": "前左瀏海X2"
+		},
+		{
+			"Id": "ParamFrontLeftHairX3",
+			"GroupId": "ParamGroup4",
+			"Name": "前左瀏海X3"
+		},
+		{
+			"Id": "ParamFrontLeftHairY1",
+			"GroupId": "ParamGroup4",
+			"Name": "前左瀏海Y1"
+		},
+		{
+			"Id": "ParamFrontLeftHairY2",
+			"GroupId": "ParamGroup4",
+			"Name": "前左瀏海Y2"
+		},
+		{
+			"Id": "ParamFrontRightHairX1",
+			"GroupId": "ParamGroup4",
+			"Name": "前右瀏海X1"
+		},
+		{
+			"Id": "ParamFrontRightHairX2",
+			"GroupId": "ParamGroup4",
+			"Name": "前右瀏海X2"
+		},
+		{
+			"Id": "ParamFrontRightHairX3",
+			"GroupId": "ParamGroup4",
+			"Name": "前右瀏海X3"
+		},
+		{
+			"Id": "ParamFrontRightHairX4",
+			"GroupId": "ParamGroup4",
+			"Name": "前右瀏海X4"
+		},
+		{
+			"Id": "ParamFrontRightHairY1",
+			"GroupId": "ParamGroup4",
+			"Name": "前右瀏海Y1"
+		},
+		{
+			"Id": "ParamFrontRightHairY2",
+			"GroupId": "ParamGroup4",
+			"Name": "前右瀏海Y2"
+		},
+		{
+			"Id": "ParamFrontMiddleHariX1walk",
+			"GroupId": "ParamGroup20",
+			"Name": "前中瀏海X1走路"
+		},
+		{
+			"Id": "ParamFrontMiddleHariX2walk",
+			"GroupId": "ParamGroup20",
+			"Name": "前中瀏海X2走路"
+		},
+		{
+			"Id": "ParamFrontMiddleHariX3walk",
+			"GroupId": "ParamGroup20",
+			"Name": "前中瀏海X3走路"
+		},
+		{
+			"Id": "ParamLeftHairX1walk",
+			"GroupId": "ParamGroup20",
+			"Name": "左瀏海X1走路"
+		},
+		{
+			"Id": "ParamLeftHairX2walk",
+			"GroupId": "ParamGroup20",
+			"Name": "左瀏海X2走路"
+		},
+		{
+			"Id": "ParamLeftHairX3walk",
+			"GroupId": "ParamGroup20",
+			"Name": "左瀏海X3走路"
+		},
+		{
+			"Id": "ParamFrontLeftHairX1walk",
+			"GroupId": "ParamGroup20",
+			"Name": "前左瀏海X1走路"
+		},
+		{
+			"Id": "ParamFrontLeftHairX2walk",
+			"GroupId": "ParamGroup20",
+			"Name": "前左瀏海X2走路"
+		},
+		{
+			"Id": "ParamFrontLeftHairX3walk",
+			"GroupId": "ParamGroup20",
+			"Name": "前左瀏海X3走路"
+		},
+		{
+			"Id": "ParamFrontRightHairX1walk",
+			"GroupId": "ParamGroup20",
+			"Name": "前右瀏海X1走路"
+		},
+		{
+			"Id": "ParamFrontRightHairX2walk",
+			"GroupId": "ParamGroup20",
+			"Name": "前右瀏海X2走路"
+		},
+		{
+			"Id": "ParamFrontRightHairX3walk",
+			"GroupId": "ParamGroup20",
+			"Name": "前右瀏海X3走路"
+		},
+		{
+			"Id": "ParamFrontRightHairX4walk",
+			"GroupId": "ParamGroup20",
+			"Name": "前右瀏海X4走路"
+		},
+		{
+			"Id": "ParamLeftBackHairX1",
+			"GroupId": "ParamGroup6",
+			"Name": "左後髮 X1"
+		},
+		{
+			"Id": "ParamLeftBackHairX2",
+			"GroupId": "ParamGroup6",
+			"Name": "左後髮X2"
+		},
+		{
+			"Id": "ParamLeftBackHairX3",
+			"GroupId": "ParamGroup6",
+			"Name": "左後髮X3"
+		},
+		{
+			"Id": "ParamLeftBackHairX4",
+			"GroupId": "ParamGroup6",
+			"Name": "左後髮X4"
+		},
+		{
+			"Id": "ParamLeftBackHairY1",
+			"GroupId": "ParamGroup6",
+			"Name": "左後髮Y1"
+		},
+		{
+			"Id": "ParamLeftBackHairY2",
+			"GroupId": "ParamGroup6",
+			"Name": "左後髮Y2"
+		},
+		{
+			"Id": "ParamLeftBackHairY3",
+			"GroupId": "ParamGroup6",
+			"Name": "左後髮Y3 空"
+		},
+		{
+			"Id": "ParamLeftBackHairY4",
+			"GroupId": "ParamGroup6",
+			"Name": "左後髮Y4"
+		},
+		{
+			"Id": "ParamRightBackHairX1",
+			"GroupId": "ParamGroup6",
+			"Name": "右後髮 X1"
+		},
+		{
+			"Id": "ParamRightBackHairX2",
+			"GroupId": "ParamGroup6",
+			"Name": "右後髮X2"
+		},
+		{
+			"Id": "ParamRightBackHairX3",
+			"GroupId": "ParamGroup6",
+			"Name": "右後髮X3"
+		},
+		{
+			"Id": "ParamRightBackHairX4",
+			"GroupId": "ParamGroup6",
+			"Name": "右後髮X4"
+		},
+		{
+			"Id": "ParamRightBackHairY1",
+			"GroupId": "ParamGroup6",
+			"Name": "右後髮Y1"
+		},
+		{
+			"Id": "ParamRightBackHairY2",
+			"GroupId": "ParamGroup6",
+			"Name": "右後髮Y2"
+		},
+		{
+			"Id": "ParamLeftTailEmpty",
+			"GroupId": "ParamGroup6",
+			"Name": "左髮尾 空"
+		},
+		{
+			"Id": "ParamLeftTailX1",
+			"GroupId": "ParamGroup6",
+			"Name": "左髮尾X1"
+		},
+		{
+			"Id": "ParamLeftTailX2",
+			"GroupId": "ParamGroup6",
+			"Name": "左髮尾X2"
+		},
+		{
+			"Id": "ParamLeftTailX3",
+			"GroupId": "ParamGroup6",
+			"Name": "左髮尾X3"
+		},
+		{
+			"Id": "ParamLeftBackHairX1walk",
+			"GroupId": "ParamGroup21",
+			"Name": "左後髮 X1走路"
+		},
+		{
+			"Id": "ParamLeftBackHairX2walk",
+			"GroupId": "ParamGroup21",
+			"Name": "左後髮X2走路"
+		},
+		{
+			"Id": "ParamLeftBackHairX3walk",
+			"GroupId": "ParamGroup21",
+			"Name": "左後髮X3走路"
+		},
+		{
+			"Id": "ParamLeftBackHairX4walk",
+			"GroupId": "ParamGroup21",
+			"Name": "左後髮X4走路"
+		},
+		{
+			"Id": "ParamLeftBackHairY1walk",
+			"GroupId": "ParamGroup21",
+			"Name": "左後髮Y1走路"
+		},
+		{
+			"Id": "ParamLeftBackHairY2walk",
+			"GroupId": "ParamGroup21",
+			"Name": "左後髮Y2走路"
+		},
+		{
+			"Id": "ParamLeftBackHairY3walk",
+			"GroupId": "ParamGroup21",
+			"Name": "左後髮Y3 空走路"
+		},
+		{
+			"Id": "ParamLeftBackHairY4walk",
+			"GroupId": "ParamGroup21",
+			"Name": "左後髮Y4走路"
+		},
+		{
+			"Id": "ParamRightBackHairX1walk",
+			"GroupId": "ParamGroup21",
+			"Name": "右後髮 X1走路"
+		},
+		{
+			"Id": "ParamRightBackHairX2walk",
+			"GroupId": "ParamGroup21",
+			"Name": "右後髮X2走路"
+		},
+		{
+			"Id": "ParamRightBackHairX3walk",
+			"GroupId": "ParamGroup21",
+			"Name": "右後髮X3走路"
+		},
+		{
+			"Id": "ParamRightBackHairX4walk",
+			"GroupId": "ParamGroup21",
+			"Name": "右後髮X4走路"
+		},
+		{
+			"Id": "ParamRightBackHairY1walk",
+			"GroupId": "ParamGroup21",
+			"Name": "右後髮Y1走路"
+		},
+		{
+			"Id": "ParamRightBackHairY2walk",
+			"GroupId": "ParamGroup21",
+			"Name": "右後髮Y2走路"
+		},
+		{
+			"Id": "ParamLeftTailEmptywalk",
+			"GroupId": "ParamGroup21",
+			"Name": "左髮尾 空走路"
+		},
+		{
+			"Id": "ParamLeftTailX1walk",
+			"GroupId": "ParamGroup21",
+			"Name": "左髮尾X1走路"
+		},
+		{
+			"Id": "ParamLeftTailX2walk",
+			"GroupId": "ParamGroup21",
+			"Name": "左髮尾X2走路"
+		},
+		{
+			"Id": "ParamLeftTailX3walk",
+			"GroupId": "ParamGroup21",
+			"Name": "左髮尾X3走路"
+		},
+		{
+			"Id": "ParamFlowerShakeX1",
+			"GroupId": "ParamGroup7",
+			"Name": "帽花搖動X1"
+		},
+		{
+			"Id": "ParamFlowerShakeX2",
+			"GroupId": "ParamGroup7",
+			"Name": "帽花搖動X2"
+		},
+		{
+			"Id": "ParamFlowerShakeX3",
+			"GroupId": "ParamGroup7",
+			"Name": "帽花搖動X3"
+		},
+		{
+			"Id": "ParamTopFlowerShakeX2",
+			"GroupId": "ParamGroup7",
+			"Name": "帽花頂搖動X"
+		},
+		{
+			"Id": "ParamBackFlowerShakeX",
+			"GroupId": "ParamGroup7",
+			"Name": "帽花後搖動X"
+		},
+		{
+			"Id": "ParamWoodRing",
+			"GroupId": "ParamGroup7",
+			"Name": "木環搖動"
+		},
+		{
+			"Id": "ParamWoodRingwalk",
+			"GroupId": "ParamGroup7",
+			"Name": "木環搖動走路"
+		},
+		{
+			"Id": "ParamBreastX1",
+			"GroupId": "ParamGroup10",
+			"Name": "胸部X1"
+		},
+		{
+			"Id": "ParamBreastX2",
+			"GroupId": "ParamGroup10",
+			"Name": "胸部X2"
+		},
+		{
+			"Id": "ParamBreastY1",
+			"GroupId": "ParamGroup10",
+			"Name": "胸部Y1"
+		},
+		{
+			"Id": "ParamBreastY2",
+			"GroupId": "ParamGroup10",
+			"Name": "胸部Y2"
+		},
+		{
+			"Id": "ParamCoatFurR1_1",
+			"GroupId": "ParamGroup11",
+			"Name": "蔉衣前右毛1-1"
+		},
+		{
+			"Id": "ParamCoatFurR1_2",
+			"GroupId": "ParamGroup11",
+			"Name": "蔉衣前右毛1-2"
+		},
+		{
+			"Id": "ParamCoatFurR2_1",
+			"GroupId": "ParamGroup11",
+			"Name": "蔉衣前右毛2-1"
+		},
+		{
+			"Id": "ParamCoatFurR2_2",
+			"GroupId": "ParamGroup11",
+			"Name": "蔉衣前右毛2-2"
+		},
+		{
+			"Id": "ParamCoatFurR2_3",
+			"GroupId": "ParamGroup11",
+			"Name": "蔉衣前右毛2-3"
+		},
+		{
+			"Id": "ParamCoatFurR3_1",
+			"GroupId": "ParamGroup11",
+			"Name": "蔉衣前右毛3-1"
+		},
+		{
+			"Id": "ParamCoatFurR3_2",
+			"GroupId": "ParamGroup11",
+			"Name": "蔉衣前右毛3-2"
+		},
+		{
+			"Id": "ParamCoatFurL1_1",
+			"GroupId": "ParamGroup11",
+			"Name": "蔉衣前左毛1-1"
+		},
+		{
+			"Id": "ParamCoatFurL1_2",
+			"GroupId": "ParamGroup11",
+			"Name": "蔉衣前左毛1-2"
+		},
+		{
+			"Id": "ParamCoatFurL2_1",
+			"GroupId": "ParamGroup11",
+			"Name": "蔉衣前左毛2-1"
+		},
+		{
+			"Id": "ParamCoatFurL2_2",
+			"GroupId": "ParamGroup11",
+			"Name": "蔉衣前左毛2-2"
+		},
+		{
+			"Id": "ParamCoatFurL2_3",
+			"GroupId": "ParamGroup11",
+			"Name": "蔉衣前左毛2-3"
+		},
+		{
+			"Id": "ParamCoatFurL3_1",
+			"GroupId": "ParamGroup11",
+			"Name": "蔉衣前左毛3-1"
+		},
+		{
+			"Id": "ParamCoatFurL3_2",
+			"GroupId": "ParamGroup11",
+			"Name": "蔉衣前左毛3-2"
+		},
+		{
+			"Id": "ParamCoatBackFur",
+			"GroupId": "ParamGroup11",
+			"Name": "蔉衣後毛"
+		},
+		{
+			"Id": "ParamBacktailFur",
+			"GroupId": "ParamGroup11",
+			"Name": "蔉衣後垂毛"
+		},
+		{
+			"Id": "ParamCoatXwalk",
+			"GroupId": "ParamGroup18",
+			"Name": "蔉衣轉身X走路"
+		},
+		{
+			"Id": "ParamCoatYwalk",
+			"GroupId": "ParamGroup18",
+			"Name": "蔉衣轉身Y走路"
+		},
+		{
+			"Id": "ParamCoatFurR1walk",
+			"GroupId": "ParamGroup18",
+			"Name": "蔉衣前右毛1-1走路"
+		},
+		{
+			"Id": "ParamCoatFurR12walk",
+			"GroupId": "ParamGroup18",
+			"Name": "蔉衣前右毛1-2走路"
+		},
+		{
+			"Id": "ParamCoatFurR21walk",
+			"GroupId": "ParamGroup18",
+			"Name": "蔉衣前右毛2-1走路"
+		},
+		{
+			"Id": "ParamCoatFurR22walk",
+			"GroupId": "ParamGroup18",
+			"Name": "蔉衣前右毛2-2走路"
+		},
+		{
+			"Id": "ParamCoatFurR23walk",
+			"GroupId": "ParamGroup18",
+			"Name": "蔉衣前右毛2-3走路"
+		},
+		{
+			"Id": "ParamCoatFurR31walk",
+			"GroupId": "ParamGroup18",
+			"Name": "蔉衣前右毛3-1走路"
+		},
+		{
+			"Id": "ParamCoatFurR32walk",
+			"GroupId": "ParamGroup18",
+			"Name": "蔉衣前右毛3-2走路"
+		},
+		{
+			"Id": "ParamCoatFurL11walk",
+			"GroupId": "ParamGroup18",
+			"Name": "蔉衣前左毛1-1走路"
+		},
+		{
+			"Id": "ParamCoatFurL12walk",
+			"GroupId": "ParamGroup18",
+			"Name": "蔉衣前左毛1-2走路"
+		},
+		{
+			"Id": "ParamCoatFurL21walk",
+			"GroupId": "ParamGroup18",
+			"Name": "蔉衣前左毛2-1走路"
+		},
+		{
+			"Id": "ParamCoatFurL22walk",
+			"GroupId": "ParamGroup18",
+			"Name": "蔉衣前左毛2-2走路"
+		},
+		{
+			"Id": "ParamCoatFurL23walk",
+			"GroupId": "ParamGroup18",
+			"Name": "蔉衣前左毛2-3走路"
+		},
+		{
+			"Id": "ParamCoatFurL31walk",
+			"GroupId": "ParamGroup18",
+			"Name": "蔉衣前左毛3-1走路"
+		},
+		{
+			"Id": "ParamCoatFurL32walk",
+			"GroupId": "ParamGroup18",
+			"Name": "蔉衣前左毛3-2走路"
+		},
+		{
+			"Id": "ParamCoatBackFurwalk",
+			"GroupId": "ParamGroup18",
+			"Name": "蔉衣後毛走路"
+		},
+		{
+			"Id": "ParamBacktailFurwalk",
+			"GroupId": "ParamGroup18",
+			"Name": "蔉衣後垂毛走路"
+		},
+		{
+			"Id": "ParamCollar",
+			"GroupId": "ParamGroup12",
+			"Name": "領搖動"
+		},
+		{
+			"Id": "ParamShoeTailL",
+			"GroupId": "ParamGroup12",
+			"Name": "左鞋繩尾"
+		},
+		{
+			"Id": "ParamShoeTailR",
+			"GroupId": "ParamGroup12",
+			"Name": "右鞋繩尾"
+		},
+		{
+			"Id": "ParamBag",
+			"GroupId": "ParamGroup12",
+			"Name": "腰包物理"
+		},
+		{
+			"Id": "ParamBag2",
+			"GroupId": "ParamGroup12",
+			"Name": "腰包物理2"
+		},
+		{
+			"Id": "ParamBag3",
+			"GroupId": "ParamGroup12",
+			"Name": "腰包物理3"
+		},
+		{
+			"Id": "ParamBroomBelt",
+			"GroupId": "ParamGroup12",
+			"Name": "掃帚綁結"
+		},
+		{
+			"Id": "ParamBroomFeather1",
+			"GroupId": "ParamGroup12",
+			"Name": "掃帚羽毛1"
+		},
+		{
+			"Id": "ParamBroomFeather2",
+			"GroupId": "ParamGroup12",
+			"Name": "掃帚羽毛2"
+		},
+		{
+			"Id": "ParamBroomFeather3",
+			"GroupId": "ParamGroup12",
+			"Name": "掃帚羽毛3"
+		},
+		{
+			"Id": "ParamBroomFeatherBlend",
+			"GroupId": "ParamGroup12",
+			"Name": "掃帚羽毛末端"
+		},
+		{
+			"Id": "ParamBroomFeatherBlend2",
+			"GroupId": "ParamGroup12",
+			"Name": "掃帚羽毛末端2"
+		},
+		{
+			"Id": "ParamBroomFeatherBlend3",
+			"GroupId": "ParamGroup12",
+			"Name": "掃帚羽毛末端3"
+		},
+		{
+			"Id": "ParamUnderwearX",
+			"GroupId": "ParamGroup12",
+			"Name": "肚兜物理X"
+		},
+		{
+			"Id": "ParamCollarwalk",
+			"GroupId": "ParamGroup19",
+			"Name": "領搖動走路"
+		},
+		{
+			"Id": "ParamShoeTailLwalk",
+			"GroupId": "ParamGroup19",
+			"Name": "左鞋繩尾走路"
+		},
+		{
+			"Id": "ParamShoeTailRwalk",
+			"GroupId": "ParamGroup19",
+			"Name": "右鞋繩尾走路"
+		},
+		{
+			"Id": "ParamBagwalk",
+			"GroupId": "ParamGroup19",
+			"Name": "腰包物理走路"
+		},
+		{
+			"Id": "ParamBag2walk",
+			"GroupId": "ParamGroup19",
+			"Name": "腰包物理2走路"
+		},
+		{
+			"Id": "ParamBag3walk",
+			"GroupId": "ParamGroup19",
+			"Name": "腰包物理3走路"
+		},
+		{
+			"Id": "ParamBroomBeltwalk",
+			"GroupId": "ParamGroup19",
+			"Name": "掃帚綁結走路"
+		},
+		{
+			"Id": "ParamBroomFeather1walk",
+			"GroupId": "ParamGroup19",
+			"Name": "掃帚羽毛1走路"
+		},
+		{
+			"Id": "ParamBroomFeather2walk",
+			"GroupId": "ParamGroup19",
+			"Name": "掃帚羽毛2走路"
+		},
+		{
+			"Id": "ParamBroomFeather3walk",
+			"GroupId": "ParamGroup19",
+			"Name": "掃帚羽毛3走路"
+		},
+		{
+			"Id": "ParamBroomFeatherBlendwalk",
+			"GroupId": "ParamGroup19",
+			"Name": "掃帚羽毛末端走路"
+		},
+		{
+			"Id": "ParamBroomFeatherBlend2walk",
+			"GroupId": "ParamGroup19",
+			"Name": "掃帚羽毛末端2走路"
+		},
+		{
+			"Id": "ParamBroomFeatherBlend3walk",
+			"GroupId": "ParamGroup19",
+			"Name": "掃帚羽毛末端3走路"
+		},
+		{
+			"Id": "ParamUnderwearXwalk",
+			"GroupId": "ParamGroup19",
+			"Name": "肚兜物理X走路"
+		},
+		{
+			"Id": "ParamWalkSwitch",
+			"GroupId": "ParamGroup15",
+			"Name": "走路腳的切換開關"
+		},
+		{
+			"Id": "ParamStepL",
+			"GroupId": "ParamGroup15",
+			"Name": "走路腳步左"
+		},
+		{
+			"Id": "ParamStepR",
+			"GroupId": "ParamGroup15",
+			"Name": "走路腳步右"
+		},
+		{
+			"Id": "ParamWalkBodyTwist",
+			"GroupId": "ParamGroup15",
+			"Name": "走路身體平衡旋轉"
+		},
+		{
+			"Id": "ParamWalkHips",
+			"GroupId": "ParamGroup15",
+			"Name": "走路身體平衡臀部"
+		},
+		{
+			"Id": "ParamWalkUpDownUpperbody",
+			"GroupId": "ParamGroup15",
+			"Name": "走路身體上下躍動"
+		},
+		{
+			"Id": "ParamWalkUpDownUpperbody2",
+			"GroupId": "ParamGroup15",
+			"Name": "走路身體上下躍動上身"
+		},
+		{
+			"Id": "ParamWave",
+			"GroupId": "ParamGroup22",
+			"Name": "揮手開關"
+		},
+		{
+			"Id": "ParamWaveX1",
+			"GroupId": "ParamGroup22",
+			"Name": "揮手X1"
+		},
+		{
+			"Id": "ParamWaveX2",
+			"GroupId": "ParamGroup22",
+			"Name": "揮手X2"
+		},
+		{
+			"Id": "ParamWaveX3",
+			"GroupId": "ParamGroup22",
+			"Name": "揮手X3"
+		},
+		{
+			"Id": "ParamWaveX1b",
+			"GroupId": "ParamGroup22",
+			"Name": "揮手X1融合物理用"
+		},
+		{
+			"Id": "ParamWaveX2b",
+			"GroupId": "ParamGroup22",
+			"Name": "揮手X2融合物理用"
+		},
+		{
+			"Id": "ParamWaveX3b",
+			"GroupId": "ParamGroup22",
+			"Name": "揮手X3融合物理用"
+		},
+		{
+			"Id": "ParamGamepad",
+			"GroupId": "ParamGroup23",
+			"Name": "遊戲手把-開關"
+		},
+		{
+			"Id": "ParamPushL1",
+			"GroupId": "ParamGroup23",
+			"Name": "遊戲手把-按L1"
+		},
+		{
+			"Id": "ParamPushR1",
+			"GroupId": "ParamGroup23",
+			"Name": "遊戲手把-按R1"
+		},
+		{
+			"Id": "ParamPushL2",
+			"GroupId": "ParamGroup23",
+			"Name": "遊戲手把-按L2"
+		},
+		{
+			"Id": "ParamPushR2",
+			"GroupId": "ParamGroup23",
+			"Name": "遊戲手把-按R2"
+		},
+		{
+			"Id": "ParamPushArrow",
+			"GroupId": "ParamGroup23",
+			"Name": "遊戲手把-按方向鍵"
+		},
+		{
+			"Id": "ParamPushABXY",
+			"GroupId": "ParamGroup23",
+			"Name": "遊戲手把-按ABXY"
+		},
+		{
+			"Id": "ParamPushLeftStickX",
+			"GroupId": "ParamGroup23",
+			"Name": "遊戲手把-推左香菇頭X"
+		},
+		{
+			"Id": "ParamPushLeftStickY",
+			"GroupId": "ParamGroup23",
+			"Name": "遊戲手把-推左香菇頭Y"
+		},
+		{
+			"Id": "ParamPushRightrStickX",
+			"GroupId": "ParamGroup23",
+			"Name": "遊戲手把-推右香菇頭X"
+		},
+		{
+			"Id": "ParamPushRightStickY",
+			"GroupId": "ParamGroup23",
+			"Name": "遊戲手把-推右香菇頭Y"
+		},
+		{
+			"Id": "ParamControllerX",
+			"GroupId": "ParamGroup23",
+			"Name": "手把X"
+		},
+		{
+			"Id": "ParamControllerY",
+			"GroupId": "ParamGroup23",
+			"Name": "手把Y"
+		},
+		{
+			"Id": "ParamReverse",
+			"GroupId": "",
+			"Name": "反轉用"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup14",
+			"GroupId": "",
+			"Name": "主要角度"
+		},
+		{
+			"Id": "ParamGroup24",
+			"GroupId": "",
+			"Name": "特效"
+		},
+		{
+			"Id": "ParamGroup13",
+			"GroupId": "",
+			"Name": "跨步"
+		},
+		{
+			"Id": "ParamGroup9",
+			"GroupId": "",
+			"Name": "裙子物理"
+		},
+		{
+			"Id": "ParamGroup16",
+			"GroupId": "",
+			"Name": "裙子物理-走路"
+		},
+		{
+			"Id": "ParamGroup8",
+			"GroupId": "",
+			"Name": "垂下手物理"
+		},
+		{
+			"Id": "ParamGroup17",
+			"GroupId": "",
+			"Name": "垂下手物理走路"
+		},
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "Eyes"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "眼睛物理"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "耳飾物理"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "嘴巴相關"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "前髮物理"
+		},
+		{
+			"Id": "ParamGroup20",
+			"GroupId": "",
+			"Name": "前髮物理走路"
+		},
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "後髮物理"
+		},
+		{
+			"Id": "ParamGroup21",
+			"GroupId": "",
+			"Name": "後髮物理走路"
+		},
+		{
+			"Id": "ParamGroup7",
+			"GroupId": "",
+			"Name": "帽物理"
+		},
+		{
+			"Id": "ParamGroup10",
+			"GroupId": "",
+			"Name": "乳搖物理"
+		},
+		{
+			"Id": "ParamGroup11",
+			"GroupId": "",
+			"Name": "蔉衣物理"
+		},
+		{
+			"Id": "ParamGroup18",
+			"GroupId": "",
+			"Name": "蔉衣物理走路"
+		},
+		{
+			"Id": "ParamGroup12",
+			"GroupId": "",
+			"Name": "物件物理"
+		},
+		{
+			"Id": "ParamGroup19",
+			"GroupId": "",
+			"Name": "物件物理走路"
+		},
+		{
+			"Id": "ParamGroup15",
+			"GroupId": "",
+			"Name": "走路"
+		},
+		{
+			"Id": "ParamGroup22",
+			"GroupId": "",
+			"Name": "手差分-揮手掰掰"
+		},
+		{
+			"Id": "ParamGroup23",
+			"GroupId": "",
+			"Name": "手差分-遊戲手把"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part131",
+			"Name": "閃亮眼"
+		},
+		{
+			"Id": "heartup_Part34",
+			"Name": "愛心飄"
+		},
+		{
+			"Id": "Amimir",
+			"Name": "Amimir"
+		},
+		{
+			"Id": "Part19",
+			"Name": "ref"
+		},
+		{
+			"Id": "PartSketch0",
+			"Name": "[ Guide Image]"
+		},
+		{
+			"Id": "Part2",
+			"Name": "斗笠前半"
+		},
+		{
+			"Id": "Part20",
+			"Name": "前髮群組"
+		},
+		{
+			"Id": "Part24",
+			"Name": "不確定會不會用到的鬢角"
+		},
+		{
+			"Id": "Part",
+			"Name": "頭"
+		},
+		{
+			"Id": "Part65",
+			"Name": "R揮手差分"
+		},
+		{
+			"Id": "Part18",
+			"Name": "004蓑衣"
+		},
+		{
+			"Id": "Part66",
+			"Name": "002_腕與手把"
+		},
+		{
+			"Id": "Part13",
+			"Name": "前領"
+		},
+		{
+			"Id": "Part38",
+			"Name": "花扣走路"
+		},
+		{
+			"Id": "Part32",
+			"Name": "花扣"
+		},
+		{
+			"Id": "Part62",
+			"Name": "肚兜拆分走路"
+		},
+		{
+			"Id": "Part30",
+			"Name": "肚兜拆分"
+		},
+		{
+			"Id": "Part42",
+			"Name": "腰包"
+		},
+		{
+			"Id": "Part41",
+			"Name": "長裙前組走路"
+		},
+		{
+			"Id": "Part40",
+			"Name": "長裙前組"
+		},
+		{
+			"Id": "Part16",
+			"Name": "脖子"
+		},
+		{
+			"Id": "Part51",
+			"Name": "R腿"
+		},
+		{
+			"Id": "Part48",
+			"Name": "L腿"
+		},
+		{
+			"Id": "Part31",
+			"Name": "上半身拆分"
+		},
+		{
+			"Id": "Part14",
+			"Name": "後領"
+		},
+		{
+			"Id": "Part43",
+			"Name": "R手臂"
+		},
+		{
+			"Id": "Part47",
+			"Name": "L手臂"
+		},
+		{
+			"Id": "Part45",
+			"Name": "004_蓑衣後"
+		},
+		{
+			"Id": "Part46",
+			"Name": "掃帚"
+		},
+		{
+			"Id": "Part25",
+			"Name": "後髮群組"
+		},
+		{
+			"Id": "Part64",
+			"Name": "後髮群組一般"
+		},
+		{
+			"Id": "Part26",
+			"Name": "003_後髮群組"
+		},
+		{
+			"Id": "Part27",
+			"Name": "003_髮捲"
+		},
+		{
+			"Id": "Part28",
+			"Name": "斗笠後半"
+		},
+		{
+			"Id": "Part15",
+			"Name": "花"
+		},
+		{
+			"Id": "Part17",
+			"Name": "帽顶"
+		},
+		{
+			"Id": "Part21",
+			"Name": "前刘海1"
+		},
+		{
+			"Id": "Part22",
+			"Name": "刘海2"
+		},
+		{
+			"Id": "Part23",
+			"Name": "劉海3"
+		},
+		{
+			"Id": "Part3",
+			"Name": "臉與五官"
+		},
+		{
+			"Id": "Part52",
+			"Name": "蓑衣前L走路"
+		},
+		{
+			"Id": "Part53",
+			"Name": "蓑衣前R走路"
+		},
+		{
+			"Id": "Part33",
+			"Name": "蓑衣前L"
+		},
+		{
+			"Id": "Part29",
+			"Name": "蓑衣前R"
+		},
+		{
+			"Id": "Part69",
+			"Name": "002動作_L手"
+		},
+		{
+			"Id": "Part67",
+			"Name": "002動作_R手"
+		},
+		{
+			"Id": "Part68",
+			"Name": "002動作_手把"
+		},
+		{
+			"Id": "Part35",
+			"Name": "走路用右腳"
+		},
+		{
+			"Id": "Part36",
+			"Name": "R腿"
+		},
+		{
+			"Id": "Part34",
+			"Name": "走路用左腳"
+		},
+		{
+			"Id": "Part37",
+			"Name": "L腿"
+		},
+		{
+			"Id": "Part56",
+			"Name": "R手臂走路"
+		},
+		{
+			"Id": "Part44",
+			"Name": "R手臂一般"
+		},
+		{
+			"Id": "Part54",
+			"Name": "L手臂走路"
+		},
+		{
+			"Id": "Part39",
+			"Name": "L手臂一般"
+		},
+		{
+			"Id": "Part59",
+			"Name": "蔉衣後-走路"
+		},
+		{
+			"Id": "Part58",
+			"Name": "蔉衣後-一般"
+		},
+		{
+			"Id": "Part60",
+			"Name": "掃帚走路"
+		},
+		{
+			"Id": "Part61",
+			"Name": "掃帚-一般"
+		},
+		{
+			"Id": "Part63",
+			"Name": "後髮群組走路"
+		},
+		{
+			"Id": "Part4",
+			"Name": "眉鼻紅暈"
+		},
+		{
+			"Id": "Part7",
+			"Name": "口"
+		},
+		{
+			"Id": "Part12",
+			"Name": "眼L"
+		},
+		{
+			"Id": "Part8",
+			"Name": "眼R"
+		},
+		{
+			"Id": "Part10",
+			"Name": "臉"
+		},
+		{
+			"Id": "Part57",
+			"Name": "R手"
+		},
+		{
+			"Id": "Part49",
+			"Name": "R手"
+		},
+		{
+			"Id": "Part55",
+			"Name": "L手"
+		},
+		{
+			"Id": "Part50",
+			"Name": "L手"
+		},
+		{
+			"Id": "Part5",
+			"Name": "眉毛"
+		},
+		{
+			"Id": "Part6",
+			"Name": "鼻"
+		},
+		{
+			"Id": "Part9",
+			"Name": "眼球L"
+		},
+		{
+			"Id": "Part11",
+			"Name": "眼球R"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamAngleXTrue",
+			"ParamAngleYTrue"
+		],
+		[
+			"ParamPalmLX",
+			"ParamPalmLY"
+		],
+		[
+			"ParamPalmRX",
+			"ParamPalmRY"
+		],
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamPushLeftStickX",
+			"ParamPushLeftStickY"
+		],
+		[
+			"ParamPushRightrStickX",
+			"ParamPushRightStickY"
+		]
+	]
+}

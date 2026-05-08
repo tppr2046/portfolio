@@ -1,0 +1,36 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Amiya.moc3",
+		"Textures": [
+			"Amiya.1024/texture_00.png"
+		],
+		"Physics": "Amiya.physics3.json",
+		"DisplayInfo": "Amiya.cdi3.json",
+		"Motions": {
+			"Idle": [
+				{ "File": "walk_idle.motion3.json" }
+			],
+			"TapBody": [
+				{ "File": "wave.motion3.json" },
+				{ "File": "angry_sign.motion3.json" },
+				{ "File": "surprise_sign.motion3.json" }
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}

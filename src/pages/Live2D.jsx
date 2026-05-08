@@ -89,7 +89,7 @@ export default function Live2D() {
         </div>
         <div className="unity-demo unity-demo-vertical">
           <iframe
-            src="/dist/index.html"
+            src="/live2d-web/index.html"
             title="Live2D 互動展示"
             scrolling="no"
           ></iframe>

@@ -97,7 +97,7 @@ export default function Live2D() {
             <h3>Live2D Web 展示</h3>
             <p>
               以 Live2D Cubism 製作角色動作，直接透過 Web 技術嵌入展示；
-              包含待機動作、表情與物理模擬。
+              包含待機動作、表情與物理模擬，在角色身上按住滑鼠移動，可以讓角色視線跟隨滑鼠。
             </p>
             <p className="hint">Vtuber建模班習作</p>
             <p className="hint">繪圖：天之火</p>
